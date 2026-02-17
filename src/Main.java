@@ -22,7 +22,6 @@ public class Main {
                 validInput = true;
             } else {
                 System.out.println("Error: invalid input! try y/n");
-                validInput = false;
             }
         }
     }
