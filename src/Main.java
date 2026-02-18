@@ -8,7 +8,7 @@ public class Main {
 
         boolean validInput = false;
         while (!validInput) {
-            System.out.println("Would you like to play? (y/n) ");
+            System.out.print("Would you like to play? (y/n) ");
             char play = scan.next().charAt(0);
             if (play == 'y') {
                 validInput = true;
